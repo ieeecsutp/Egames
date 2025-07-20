@@ -17,9 +17,9 @@ Tecnologías utilizadas:
 - TypeScript
 - Astro
 
-Captura de pantalla de la versión de escritorio:
-- Versión escritorio: [Egames/src/desktop-preview.png](Egames/src/desktop-preview.png)
-- Versión móvil: [Egames/src/mobile-preview.png](Egames/src/mobile-preview.png)
+Capturas de pantalla de los dos mockups:
+- Versión escritorio: [Carpeta con imágenes](Egames/src/vista-escritorio)
+- Versión móvil: [Carpeta con imágenes](Egames/src/vista-movil)
 
 Requisitos técnicos para ejecutar el proyecto (herramientas y versiones):
 - Visual Studio Code
@@ -29,5 +29,5 @@ Requisitos técnicos para ejecutar el proyecto (herramientas y versiones):
 Pasos para ejecutar:
 npm install npm run dev
 
-Enlace a los mockups en Figma:
-
+Enlace a los mockups en Figma:  
+[Egames mockups](Egames/src/EQUIPO E.fig)
