@@ -1,46 +1,33 @@
-# Astro Starter Kit: Basics
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+Egames - Tienda de Videojuegos Digitales
+----------------------------------------
+Descripción del proyecto:
+Landing page para una tienda digital de videojuegos 
+que busca atraer gamers mediante una interfaz moderna, 
+responsiva y dinámica. 
+Se ofrece un catálogo clasificado por tipo de juego (free to play, de paga), 
+así como una sección dedicada a la compra de servicios 
+adicionales como monedas virtuales y ofertas especiales.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Tecnologías utilizadas:
+- HTML
+- CSS
+- Taildwind
+- JavaScript
+- TypeScript
+- Astro
 
-## 🚀 Project Structure
+Capturas de pantalla de los dos mockups:
+- Versión escritorio: [Carpeta con imágenes](egames/src/vista-escritorio)
+- Versión móvil: [Carpeta con imágenes](egames/src/vista-movil)
 
-Inside of your Astro project, you'll see the following folders and files:
+Requisitos técnicos para ejecutar el proyecto (herramientas y versiones):
+- Visual Studio Code
+- Extensión Tailwind CSS IntelliSense
+- Node.js v22.17.1
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+Pasos para ejecutar:
+npm install npm run dev
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Enlace a los mockups en Figma:  
+- [EQUIPO E.fig](https://drive.google.com/file/d/1fjfpnGGFRueeruLaBKd3bZ0MNXseKEry/view?usp=sharing)
