@@ -1,0 +1,95 @@
+
+<style>
+  section.resenas {
+    background: transparent;
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  .titulo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .resenas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .resena-card {
+    background: #30C5DB;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    color: #000;
+  }
+  .estrellas {
+    color: gold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagen img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* --- Responsividad --- */
+  @media (max-width: 1024px) {
+    .resenas-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .resenas-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<section class="resenas">
+  <h2 class="titulo">RESEÑAS</h2>
+
+  <div class="resenas-grid">
+    <!-- Fila 1 -->
+    <div class="imagen">
+      <img src="/img/user1.jpg" alt="Control gamer 1" />
+    </div>
+    <div class="resena-card">
+      <div class="estrellas">★★★★★</div>
+      "EGAMES es mi nueva tienda favorita. Encuentro juegos free to play y de paga con buenas ofertas, y recargo monedas virtuales sin complicaciones."
+    </div>
+    <div class="resena-card">
+      <div class="estrellas">★★★★★</div>
+      "Compré un paquete de monedas y fue instantáneo. EGAMES es segura, rápida y confiable. ¡Recomendada 100%!"
+    </div>
+    <div class="imagen">
+      <img src="/img/user2.avif" alt="Control gamer 2" />
+    </div>
+
+    <!-- Fila 2 -->
+    <div class="resena-card">
+      <div class="estrellas">★★★★☆</div>
+      "La interfaz es intuitiva y rápida. Me encanta la organización por categorías y las promociones constantes."
+    </div>
+    <div class="imagen">
+      <img src="/img/user3.jpg" alt="Control gamer 3" />
+    </div>
+    <div class="imagen">
+      <img src="/img/user4.jpg" alt="Control gamer 4" />
+    </div>
+    <div class="resena-card">
+      <div class="estrellas">★★★★★</div>
+      "No pensé que una tienda digital ofreciera tantas opciones. Desde indies hasta triple A, todo con buena atención."
+    </div>
+  </div>
+</section>
