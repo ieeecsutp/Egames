@@ -1,0 +1,159 @@
+<section class="paquetes">
+  <h2 class="titulo">PAQUETES</h2>
+  <div class="contenedor">
+    <!-- COLUMNA 1 -->
+    <div class="columna columna1">
+      <!-- Paquete 1 -->
+      <div class="paquete">
+        <div class="texto">
+          <h3>🎮 PACKETE 1: Acción y Aventura Total</h3>
+          <p>
+            Explora mundos explosivos y combates intensos con esta colección
+            ideal para los amantes de la adrenalina.
+          </p>
+        </div>
+        <img src="/img/pack1.jpeg" alt="Recarga Básica" />
+      </div>
+
+      <!-- Paquete 2 -->
+      <div class="paquete">
+        <div class="texto">
+          <h3>🧠 PACKETE 2: Estrategía y Fantasía</h3>
+          <p>
+            Sumérgete en mundos mágicos, desafíos tácticos y emocionantes
+            decisiones.
+          </p>
+        </div>
+        <img src="/img/pack3.jpg" alt="Recarga Premium" />
+      </div>
+
+      <!-- Paquete 3 -->
+      <div class="paquete">
+        <div class="texto">
+          <h3>🕹️ PACKETE 3: Clásicos Retro Inolvidables</h3>
+          <p>Una explosión de nostalgia para los fans de lo retro.</p>
+        </div>
+        <img src="/img/pack2.jpeg" alt="Recarga VIP" />
+      </div>
+    </div>
+
+    <!-- COLUMNA 2 -->
+    <div class="columna columna2">
+      <div class="paquete grande">
+        <div class="texto">
+          <h3>🍄 PACKETE 4: Universo Mario</h3>
+          <p>
+            Sumérgete en las plataformas más icónicas de todos los tiempos con
+            este paquete dedicado a Mario.
+          </p>
+        </div>
+        <img src="/img/pack4.jpg" alt="Paquete Corporativo" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  :root {
+    --color-principal: #000000;
+    --color-secundario: #30c5db;
+    --color-fondo: #3493d8;
+    --color-texto: #000000;
+  }
+
+  .paquetes {
+    padding: 3rem 1rem;
+    background-color: var(--color-fondo);
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--color-texto);
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  /* Primera columna (3 paquetes) */
+  .columna1 .paquete {
+    display: flex;
+    align-items: center;
+    background: var(--color-secundario);
+    color: var(--color-texto);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .columna1 .paquete img {
+    width: 170px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .columna1 .paquete .texto {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .columna1 h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-principal);
+  }
+
+  .columna1 p {
+    font-size: 0.95rem;
+  }
+
+  /* Segunda columna (1 paquete grande) */
+  .columna2 .paquete.grande {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-secundario);
+    color: var(--color-texto);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .columna2 .paquete.grande .texto {
+    padding: 1.5rem;
+  }
+
+  .columna2 .paquete.grande img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .columna2 h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-principal);
+  }
+
+  .columna2 p {
+    font-size: 1rem;
+  }
+
+  /* Responsivo */
+  @media (max-width: 900px) {
+    .contenedor {
+      grid-template-columns: 1fr;
+    }
+    .columna1 .paquete img {
+      width: 100px;
+    }
+  }
+</style>
