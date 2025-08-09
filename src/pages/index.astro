@@ -8,17 +8,11 @@ import Paquetes from '../components/Paquetes.astro'
 import Resenas from '../components/Reseñas.astro'
 import Nosotros from '../components/Nosotros.astro'
 import Footer from '../components/Footer.astro'
-import "../styles/global.css";
+import Layout from '../layouts/Layout.astro'
 ---
 
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Egames</title>
-  </head>
-  <body class="bg-gray-100 text-gray-900">
-    <h1 class="text-3xl font-bold text-center mt-10">
+<Layout>
+  <h1 class="text-3xl font-bold text-center mt-10">
       ¡Hola desde Tailwind 4!
     </h1>
 
@@ -35,5 +29,4 @@ import "../styles/global.css";
       <Nosotros />
     </main>
     <Footer />
-  </body>
-</html>
+</Layout>
