@@ -1,4 +1,4 @@
-<section class="paquetes">
+<section id="paquetes" class="paquetes">
   <h2 class="titulo">PAQUETES</h2>
   <div class="contenedor">
     <!-- COLUMNA 1 -->
@@ -78,6 +78,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+
+    /* Aquí lo importante */
+    max-width: 1500px; /* controla el ancho máximo */
+    margin: 0 auto; /* centra horizontalmente */
+    width: 100%; /* ocupa todo el ancho disponible hasta el max-width */
+    padding: 0 1rem; /* un poco de aire a los lados */
   }
 
   /* Primera columna (3 paquetes) */

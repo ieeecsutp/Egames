@@ -17,6 +17,12 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
     align-items: start;
+
+    /* Aquí lo importante */
+    max-width: 1500px; /* controla el ancho máximo */
+    margin: 0 auto; /* centra horizontalmente */
+    width: 100%; /* ocupa todo el ancho disponible hasta el max-width */
+    padding: 0 1rem; /* aire en los lados para móviles */
   }
   .resena-card {
     background: #30C5DB;
@@ -56,7 +62,7 @@
   }
 </style>
 
-<section class="resenas">
+<section id="resenas" class="resenas">
   <h2 class="titulo">RESEÑAS</h2>
 
   <div class="resenas-grid">

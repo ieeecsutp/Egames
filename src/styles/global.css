@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-  background: linear-gradient(to bottom, #30C5DB, #581f8df8);
+  background: linear-gradient(to bottom, #30C5DB, #5142a8f8, #001369f8);
   background-repeat: no-repeat;
   background-attachment: fixed; /* hace que el degradado "llene" toda la página */
   background-size: cover; /* ajusta para cubrir todo el contenido */
