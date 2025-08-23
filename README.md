@@ -30,4 +30,5 @@ Pasos para ejecutar:
 npm install npm run dev
 
 Enlace a los mockups en Figma:  
+- Enlace: https://www.figma.com/design/0LWavQHkOgmEXNCnTJCK13/EQUIPO-E?node-id=1-7411&t=65xHymwuuNwYrmlJ-0
 - [EQUIPO E.fig](https://drive.google.com/file/d/1fjfpnGGFRueeruLaBKd3bZ0MNXseKEry/view?usp=sharing)

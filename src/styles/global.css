@@ -7,3 +7,13 @@ body {
   background-size: cover; /* ajusta para cubrir todo el contenido */
   min-height: 100%;
 }
+
+/* global.css */
+:root {
+  --color-principal: #00EEFF;
+  --color-gradiente-1: #30C5DB;
+  --color-gradiente-2: #1E88B9;
+  --color-gradiente-3: #0A3D62;
+  --color-gradiente-4: #2D54B7;
+}
+

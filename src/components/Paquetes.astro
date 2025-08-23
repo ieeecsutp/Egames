@@ -1,165 +1,54 @@
-<section id="paquetes" class="paquetes">
-  <h2 class="titulo">PAQUETES</h2>
-  <div class="contenedor">
+<section id="paquetes" class="py-12 px-4 bg-transparent">
+  <h2 class="text-center text-2xl font-bold mb-8 text-black">PAQUETES</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[1500px] mx-auto w-full px-4">
     <!-- COLUMNA 1 -->
-    <div class="columna columna1">
+    <div class="space-y-4">
       <!-- Paquete 1 -->
-      <div class="paquete">
-        <div class="texto">
-          <h3>🎮 PACKETE 1: Acción y Aventura Total</h3>
-          <p>
+      <div class="flex items-center bg-[var(--color-principal)] text-black rounded-lg overflow-hidden shadow-md">
+        <div class="flex-1 p-4">
+          <h3 class="mb-2 text-lg font-bold text-black">🎮 PACKETE 1: Acción y Aventura Total</h3>
+          <p class="text-sm">
             Explora mundos explosivos y combates intensos con esta colección
             ideal para los amantes de la adrenalina.
           </p>
         </div>
-        <img src="/img/pack1.jpeg" alt="Recarga Básica" />
+        <img src="/img/pack1.jpeg" alt="Recarga Básica" class="w-[170px] h-full object-cover" />
       </div>
 
       <!-- Paquete 2 -->
-      <div class="paquete">
-        <div class="texto">
-          <h3>🧠 PACKETE 2: Estrategía y Fantasía</h3>
-          <p>
-            Sumérgete en mundos mágicos, desafíos tácticos y emocionantes
-            decisiones.
+      <div class="flex items-center bg-[var(--color-principal)] text-black rounded-lg overflow-hidden shadow-md">
+        <div class="flex-1 p-4">
+          <h3 class="mb-2 text-lg font-bold text-black">🧠 PACKETE 2: Estrategía y Fantasía</h3>
+          <p class="text-sm">
+            Sumérgete en mundos mágicos, desafíos tácticos y emocionantes decisiones.
           </p>
         </div>
-        <img src="/img/pack3.jpg" alt="Recarga Premium" />
+        <img src="/img/pack3.jpg" alt="Recarga Premium" class="w-[170px] h-full object-cover" />
       </div>
 
       <!-- Paquete 3 -->
-      <div class="paquete">
-        <div class="texto">
-          <h3>🕹️ PACKETE 3: Clásicos Retro Inolvidables</h3>
-          <p>Una explosión de nostalgia para los fans de lo retro.</p>
+      <div class="flex items-center bg-[var(--color-principal)] text-black rounded-lg overflow-hidden shadow-md">
+        <div class="flex-1 p-4">
+          <h3 class="mb-2 text-lg font-bold text-black">🕹️ PACKETE 3: Clásicos Retro Inolvidables</h3>
+          <p class="text-sm">Una explosión de nostalgia para los fans de lo retro.</p>
         </div>
-        <img src="/img/pack2.jpeg" alt="Recarga VIP" />
+        <img src="/img/pack2.jpeg" alt="Recarga VIP" class="w-[170px] h-full object-cover" />
       </div>
     </div>
 
     <!-- COLUMNA 2 -->
-    <div class="columna columna2">
-      <div class="paquete grande">
-        <div class="texto">
-          <h3>🍄 PACKETE 4: Universo Mario</h3>
-          <p>
+    <div class="flex flex-col">
+      <div class="flex flex-col bg-[var(--color-principal)] text-black rounded-lg overflow-hidden shadow-md h-full">
+        <div class="p-6">
+          <h3 class="mb-2 text-xl font-bold text-black">🍄 PACKETE 4: Universo Mario</h3>
+          <p class="text-base">
             Sumérgete en las plataformas más icónicas de todos los tiempos con
             este paquete dedicado a Mario.
           </p>
         </div>
-        <img src="/img/pack4.jpg" alt="Paquete Corporativo" />
+        <img src="/img/pack4.jpg" alt="Paquete Corporativo" class="w-full h-full object-cover" />
       </div>
     </div>
   </div>
 </section>
-
-<style>
-  :root {
-    --color-principal: #000000;
-    --color-secundario: #30c5db;
-    --color-fondo: transparent;
-    --color-texto: #000000;
-  }
-
-  .paquetes {
-    padding: 3rem 1rem;
-    background-color: var(--color-fondo);
-  }
-
-  .titulo {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    color: var(--color-texto);
-  }
-
-  .contenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-
-    /* Aquí lo importante */
-    max-width: 1500px; /* controla el ancho máximo */
-    margin: 0 auto; /* centra horizontalmente */
-    width: 100%; /* ocupa todo el ancho disponible hasta el max-width */
-    padding: 0 1rem; /* un poco de aire a los lados */
-  }
-
-  /* Primera columna (3 paquetes) */
-  .columna1 .paquete {
-    display: flex;
-    align-items: center;
-    background: var(--color-secundario);
-    color: var(--color-texto);
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  }
-
-  .columna1 .paquete img {
-    width: 170px;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .columna1 .paquete .texto {
-    flex: 1;
-    padding: 1rem;
-  }
-
-  .columna1 h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--color-principal);
-  }
-
-  .columna1 p {
-    font-size: 0.95rem;
-  }
-
-  /* Segunda columna (1 paquete grande) */
-  .columna2 .paquete.grande {
-    display: flex;
-    flex-direction: column;
-    background: var(--color-secundario);
-    color: var(--color-texto);
-    border-radius: 10px;
-    overflow: hidden;
-    height: 100%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  }
-
-  .columna2 .paquete.grande .texto {
-    padding: 1.5rem;
-  }
-
-  .columna2 .paquete.grande img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .columna2 h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--color-principal);
-  }
-
-  .columna2 p {
-    font-size: 1rem;
-  }
-
-  /* Responsivo */
-  @media (max-width: 900px) {
-    .contenedor {
-      grid-template-columns: 1fr;
-    }
-    .columna1 .paquete img {
-      width: 100px;
-    }
-  }
-</style>
