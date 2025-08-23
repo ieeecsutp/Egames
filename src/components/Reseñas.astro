@@ -1,100 +1,36 @@
+<section id="resenas" class="bg-transparent py-8 font-sans">
+  <h2 class="text-2xl font-bold text-black mb-8 text-center">RESEÑAS</h2>
 
-<style>
-  section.resenas {
-    background: transparent;
-    padding: 2rem;
-    font-family: sans-serif;
-  }
-  .titulo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  .resenas-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
-    align-items: start;
-
-    /* Aquí lo importante */
-    max-width: 1500px; /* controla el ancho máximo */
-    margin: 0 auto; /* centra horizontalmente */
-    width: 100%; /* ocupa todo el ancho disponible hasta el max-width */
-    padding: 0 1rem; /* aire en los lados para móviles */
-  }
-  .resena-card {
-    background: #30C5DB;
-    padding: 1rem;
-    border-radius: 12px;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
-    color: #000;
-  }
-  .estrellas {
-    color: gold;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-  }
-  .imagen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .imagen img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-
-  /* --- Responsividad --- */
-  @media (max-width: 1024px) {
-    .resenas-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (max-width: 640px) {
-    .resenas-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
-
-<section id="resenas" class="resenas">
-  <h2 class="titulo">RESEÑAS</h2>
-
-  <div class="resenas-grid">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start max-w-[1500px] w-full mx-auto px-4">
     <!-- Fila 1 -->
-    <div class="imagen">
-      <img src="/img/user1.jpg" alt="Control gamer 1" />
+    <div class="flex justify-center items-center">
+      <img src="/img/user1.jpg" alt="Control gamer 1" class="w-32 h-32 rounded-full object-cover" />
     </div>
-    <div class="resena-card">
-      <div class="estrellas">★★★★★</div>
+    <div class="bg-[#30C5DB] p-4 rounded-xl shadow-lg text-black">
+      <div class="text-yellow-400 text-lg mb-2">★★★★★</div>
       "EGAMES es mi nueva tienda favorita. Encuentro juegos free to play y de paga con buenas ofertas, y recargo monedas virtuales sin complicaciones."
     </div>
-    <div class="resena-card">
-      <div class="estrellas">★★★★★</div>
+    <div class="bg-[#30C5DB] p-4 rounded-xl shadow-lg text-black">
+      <div class="text-yellow-400 text-lg mb-2">★★★★★</div>
       "Compré un paquete de monedas y fue instantáneo. EGAMES es segura, rápida y confiable. ¡Recomendada 100%!"
     </div>
-    <div class="imagen">
-      <img src="/img/user2.avif" alt="Control gamer 2" />
+    <div class="flex justify-center items-center">
+      <img src="/img/user2.avif" alt="Control gamer 2" class="w-32 h-32 rounded-full object-cover" />
     </div>
 
     <!-- Fila 2 -->
-    <div class="resena-card">
-      <div class="estrellas">★★★★☆</div>
+    <div class="bg-[#30C5DB] p-4 rounded-xl shadow-lg text-black">
+      <div class="text-yellow-400 text-lg mb-2">★★★★☆</div>
       "La interfaz es intuitiva y rápida. Me encanta la organización por categorías y las promociones constantes."
     </div>
-    <div class="imagen">
-      <img src="/img/user3.jpg" alt="Control gamer 3" />
+    <div class="flex justify-center items-center">
+      <img src="/img/user3.jpg" alt="Control gamer 3" class="w-32 h-32 rounded-full object-cover" />
     </div>
-    <div class="imagen">
-      <img src="/img/user4.jpg" alt="Control gamer 4" />
+    <div class="flex justify-center items-center">
+      <img src="/img/user4.jpg" alt="Control gamer 4" class="w-32 h-32 rounded-full object-cover" />
     </div>
-    <div class="resena-card">
-      <div class="estrellas">★★★★★</div>
+    <div class="bg-[#30C5DB] p-4 rounded-xl shadow-lg text-black">
+      <div class="text-yellow-400 text-lg mb-2">★★★★★</div>
       "No pensé que una tienda digital ofreciera tantas opciones. Desde indies hasta triple A, todo con buena atención."
     </div>
   </div>
