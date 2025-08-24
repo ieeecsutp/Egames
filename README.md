@@ -18,8 +18,8 @@ Tecnologías utilizadas:
 - Astro
 
 Capturas de pantalla de los dos mockups:
-- Versión escritorio: [Carpeta con imágenes](src/vista-escritorio)
-- Versión móvil: [Carpeta con imágenes](src/vista-movil)
+- Versión escritorio: [Carpeta con imágenes](Egames/src/vista-escritorio)
+- Versión móvil: [Carpeta con imágenes](Egames/src/vista-movil)
 
 Requisitos técnicos para ejecutar el proyecto (herramientas y versiones):
 - Visual Studio Code
