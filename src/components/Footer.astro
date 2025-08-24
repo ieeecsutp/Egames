@@ -1,55 +1,77 @@
-<footer id="contacto" class="bg-[var(--color-gradiente4)] text-[var(--color-principal)] py-8 px-4 text-sm">
-  <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-    
+<footer id="contacto" class="bg-[var(--color-gradiente4)] text-[var(--color-principal)] py-10 px-6 text-sm">
+  <div class="max-w-6xl mx-auto grid gap-8 md:grid-cols-3 items-start">
+
     <!-- Logo + lema -->
-    <div class="flex flex-col items-center md:items-start">
-      <img src="/img/logito.png" alt="Logo Egames" class="w-32 h-16 mb-2" />
-      <h2 class="mb-2 font-bold text-center md:text-left text-base md:text-xl">
+    <div>
+      <img src="/img/logito.png" alt="Logo Egames" class="w-32 h-16 mb-3" />
+      <h2 class="mb-2 font-bold text-base md:text-xl">
         "Juegos Digitales para <br> verdaderos gamers."
       </h2>
-      <p class="text-sm">Tu portal de videojuegos y diversión.</p>
+      <p class="text-sm text-gray-300">Tu portal de videojuegos y diversión.</p>
     </div>
 
-    <!-- Enlaces rápidos -->
-    <div class="flex flex-col items-center md:items-center">
-      <h3 class="text-lg font-semibold mb-2">Enlaces Rápidos</h3>
-      <nav class="flex flex-col gap-4 justify-center items-center">
-        <a href="/" class="hover:text-black transition duration-300 hover:scale-130">Inicio</a>
-        <a href="#juegos" class="hover:text-black transition duration-300 hover:scale-125">Juegos</a>
-        <a href="#promociones" class="hover:text-black transition duration-300 hover:scale-125">Promociones</a>
-        <a href="#paquetes" class="hover:text-black transition duration-300 hover:scale-125">Paquetes</a>
-        <a href="#resenas" class="hover:text-black transition duration-300 hover:scale-125">Reseñas</a>
-        <a href="#nosotros" class="hover:text-black transition duration-300 hover:scale-125">Nosotros</a>
-      </nav>
+    <!-- Soporte -->
+    <div>
+      <h3 class="text-lg font-semibold mb-3">Soporte</h3>
+      <p class="text-sm text-gray-300">
+        ¿Tienes problemas con tu compra o dudas sobre nuestros juegos?<br />
+        Escríbenos a
+        <a href="mailto:soporte@egames.com" class="text-[var(--color-principal)] hover:underline">
+          soporte@egames.com
+        </a>
+      </p>
     </div>
 
-    <!-- Redes sociales + info contacto -->
-    <div class="flex flex-col items-center gap-4">
-      <div class="flex gap-4">
-        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook" class="hover:text-black">
-        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.6 0 0 .6 0 1.326v21.348C0 23.4.6 24 1.326 24h11.495v-9.294H9.691v-3.622h3.13V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.4 24 24 23.4 24 22.674V1.326C24 .6 23.4 0 22.675 0"></path></svg>
-      </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter" class="hover:text-black">
-        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724c-.951.555-2.005.959-3.127 1.184A4.916 4.916 0 0016.616 3c-2.717 0-4.92 2.206-4.92 4.917 0 .386.044.762.127 1.124C7.728 8.816 4.1 6.884 1.671 3.149c-.423.724-.666 1.562-.666 2.475 0 1.708.87 3.216 2.188 4.099a4.904 4.904 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 01-2.224.084c.627 1.956 2.444 3.377 4.6 3.417A9.867 9.867 0 010 21.543a13.94 13.94 0 007.548 2.212c9.058 0 14.009-7.513 14.009-14.009 0-.213-.005-.425-.014-.636A10.025 10.025 0 0024 4.557z"></path></svg>
-      </a>
-      <a href="mailto:contacto@egames.com" aria-label="Email" class="hover:text-black">
-        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 13.065l-11.99-7.065v14c0 .553.447 1 1 1h21.98c.553 0 1-.447 1-1v-14l-11.99 7.065zm11.99-9.065c0-.553-.447-1-1-1h-21.98c-.553 0-1 .447-1 1v.217l12 7.083 12-7.083v-.217z"></path></svg>
-      </a>
+    <!-- Redes + contacto -->
+    <div class="flex flex-col gap-4 items-start">
+      <!-- Redes -->
+      <div class="flex gap-3">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/profile.php?id=61579921194815" target="_blank" rel="noopener"
+           class="p-2 rounded-full border border-[var(--color-principal)] text-[var(--color-principal)] hover:bg-[var(--color-principal)] hover:text-black transition"
+           aria-label="Facebook de Egames">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+               fill="currentColor" class="w-6 h-6">
+            <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.326v21.348C0 23.4.6 24 1.326 24h11.495v-9.294H9.691v-3.622h3.13V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.4 24 24 23.4 24 22.674V1.326C24 .6 23.4 0 22.675 0z"/>
+          </svg>
+        </a>
 
+        <!-- X (Twitter) -->
+        <a href="https://x.com/egamesequipoe" target="_blank" rel="noopener"
+           class="p-2 rounded-full border border-[var(--color-principal)] text-[var(--color-principal)] hover:bg-[var(--color-principal)] hover:text-black transition"
+           aria-label="Perfil en X de Egames">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1227"
+               fill="currentColor" class="w-6 h-6">
+            <path d="M714.163 519.284L1160.89 0H1052.63L668.581 450.887L357.328 0H0L463.035 681.821L0 1226.37H108.264L512.509 751.128L842.672 1226.37H1200L714.137 519.284H714.163ZM562.276 686.413L518.509 623.49L147.151 79.8057H306.14L593.758 494.796L637.525 557.719L1020.91 1150.64H861.919L562.276 686.439V686.413Z"/>
+          </svg>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:egamesequipoe@gmail.com"
+           class="p-2 rounded-full border border-[var(--color-principal)] text-[var(--color-principal)] hover:bg-[var(--color-principal)] hover:text-black transition"
+           aria-label="Enviar correo a Egames">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+               fill="currentColor" class="w-6 h-6">
+            <path d="M2 4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm0 2h20v.217l-10 5.917-10-5.917V6zm0 2.383l9.445 5.601a1 1 0 0 0 1.11 0L22 8.383V18H2V8.383z"/>
+          </svg>
+        </a>
       </div>
-      <div class="flex flex-col items-center text-sm text-center text-[var(--color-principal)]">
+
+      <!-- Contacto -->
+      <div class="text-sm text-gray-300">
         <p>📍 Av. Los Juegos 1234, Miraflores, Lima - Perú</p>
         <p>📞 +51 987 654 321</p>
         <p>🏢 Egames - Grupo E</p>
       </div>
     </div>
-
   </div>
 
   <!-- Copyright -->
-  <div class="mt-6 text-center text-xs text-gray-400">
-    &copy; 2025 Egames. Todos los derechos reservados.
+  <div class="mt-8 border-t border-gray-600 pt-4 text-xs text-gray-400 text-center">
+    © 2025 Egames. Todos los derechos reservados.
   </div>
 </footer>
+
+
 
   
