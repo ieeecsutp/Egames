@@ -34,4 +34,4 @@ Enlace a los mockups en Figma:
 - [EQUIPO E.fig](https://drive.google.com/file/d/1fjfpnGGFRueeruLaBKd3bZ0MNXseKEry/view?usp=sharing)
 
 VIDEO DEL PROYECTO:
-- [Proyecto Egames](https://utpedupe-my.sharepoint.com/:v:/g/personal/u23259582_utp_edu_pe/Ed3LmddI1WdInyGLk0ZpM7QB3N3Q6YhPSBtSrcuuKZL6Rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tVbWxC)
+- [Proyecto Egames](https://utpedupe-my.sharepoint.com/:v:/g/personal/u23259582_utp_edu_pe/Ed3LmddI1WdInyGLk0ZpM7QB3N3Q6YhPSBtSrcuuKZL6Rg)
